@@ -60,10 +60,13 @@ public class Zerosumsubarray {
 			p.add(s);
 			s=s+a[i];
 			if(p.contains(s-k)) {
-			   System.out.println("Yes");
-			   return ;
-			   
+				c=1;
+			   break;
 			}
+		}
+		if(c==1) {
+			System.out.println("Yes");
+			return;
 		}
 		
 		System.out.println("no");
