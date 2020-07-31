@@ -69,6 +69,7 @@ public class MainClass {
 		s.forEach(System.out::println);
 		// we can also write:
 		System.out.println("sorting  by name then marks , we can reverse also");
+		////vvvimp
 		Collections.sort(s,Comparator.comparing(Student::getName).thenComparing(Student::getMarks).reversed());
 		s.forEach(System.out::println);
 		
