@@ -3,7 +3,7 @@ package recursion;
 public class CoinGameTheory {
 
 	public static void main(String[] args) {
-		  int a[]= {2,5,7,3,};
+		  int a[]= {2,5,7,3,99,19};
 		  System.out.println(coin(a,0,a.length-1));
           
 	}

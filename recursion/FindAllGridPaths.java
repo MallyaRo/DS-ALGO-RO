@@ -3,7 +3,7 @@ package recursion;
 public class FindAllGridPaths {
 
 	public static void main(String[] args) {
-		System.out.println(path(3,3));
+		System.out.println(path(10,10));
 
 	}
     static int path(int n,int m) {
